@@ -2,28 +2,97 @@
 
 <html lang="pt-br">
   <head>
-   <!-- As metatags -->
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width:device-width, initial-scale=1.0" />
-  <title>Página Básica</title>
+    <!-- As metatags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width:device-width, initial-scale=1.0" />
+    <title>Página Básica</title>
   </head>
   <body>
-
     <div class="container">
       <header class="cabecalho">
-        <h1 style="text-align: center;border: solid 2px #a9defd;">Minha Página</h1>
+        <h1 style="text-align: center; border: solid 2px #a9defd">
+          Minha Página
+        </h1>
 
         <nav class="menu">
           <!-- ul = unordered list > só pode conter dentro diretamente dentro de si li (list item) ou outros uls-->
           <ul>
-            <li> <a href="./Paginas/help.html"> Help </a></li>
-            <li>Contact</li>
-            <li>About</li>
+            <li><a href="./Paginas/help.html"> Help </a></li>
+            <li><a href="./Paginas/contact.html"> Contact </a></li>
+            <li><a href="./Paginas/about.html"> About </a></li>
           </ul>
         </nav>
-
       </header>
-    </div>
 
+      <section class="conteudo">
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            ratione exercitationem eius officiis fuga, vitae fugiat aliquam
+            reprehenderit mollitia, reiciendis quod sapiente placeat accusamus
+            recusandae quam ex amet nobis possimus quos! Accusamus ut cumque
+            accusantium voluptas expedita iusto maiores, fugit vero ullam quidem
+            blanditiis sapiente unde itaque et iure fuga eius debitis
+            necessitatibus reprehenderit sequi quaerat dolorum laudantium
+            ducimus nisi. Sunt esse alias iste repellendus ipsam quidem itaque
+            animi! Nemo laborum eveniet commodi. Officiis repellat dolorum
+            ratione consectetur odio tempora. Similique dicta voluptatibus
+            atque! Debitis, ex maxime distinctio delectus error consequuntur
+            repudiandae blanditiis corporis! Illo possimus quis nemo laudantium
+            corporis?
+          </p>
+          <a href="./Paginas/help.html">Mais...</a>
+        </div>
+        <div>
+          <h2>About</h2>
+          <p>
+            About - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae illo harum voluptate nisi possimus nesciunt excepturi
+            quasi perspiciatis dolorem id.
+          </p>
+          <a href="./Paginas/about.html">Mais...</a>
+        </div>
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Data</legend>
+              <div>
+                <label for="idNm">Nome:</label>
+                <input
+                  type="text"
+                  name="txtNm"
+                  id="idNm"
+                  placeholder="Digite seu nome."
+                />
+              </div>
+              <div>
+                <label for="idEmail">Email:</label>
+                <input
+                  type="email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Digite seu email."
+                />
+              </div>
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <nav class="menu">
+          <ul>
+            <li><a href="https://www.fiap.com.br/" target="_blank">FIAP</a></li>
+            <li><a href="#">GOOGLE</a></li>
+            <li><a href="#">Github</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
