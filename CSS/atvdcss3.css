@@ -1,9 +1,26 @@
 /* modificações atvd */
 
-h1{background-color: blue;}
-h1{font-family: serif, serif;}
-h2{font-family: serif, serif;}
-nav{font-weight: bold;}
-.container{font-size: 20px;}
-#section{line-height: 1.5;}
-#form{border-style: 1px solid grey padding 10px;}
+h1{
+    background-color: blue;
+}
+h1{
+    font-family: serif, serif;
+}
+h2{
+    font-family: serif, serif;
+}
+nav{
+    font-weight: bold;
+}
+.container{
+    font-size: 20px;
+}
+#section{
+    line-height: 1.5;
+}
+#form{
+    border-style: 1px solid grey padding 10px;
+}
+p{
+    text-decoration-color: green;
+}
