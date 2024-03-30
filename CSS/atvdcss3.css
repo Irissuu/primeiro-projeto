@@ -4,10 +4,10 @@ h1{
     background-color: blue;
 }
 h1{
-    font-family: serif, serif;
+    font-family: serif;
 }
 h2{
-    font-family: serif, serif;
+    font-family: serif;
 }
 nav{
     font-weight: bold;
@@ -22,5 +22,9 @@ nav{
     border-style: 1px solid grey padding 10px;
 }
 p{
-    text-decoration-color: green;
+    color: green;
+}
+button{
+    background-color: blue;
+    color:white;
 }
