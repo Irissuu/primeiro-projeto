@@ -12,14 +12,17 @@ h2{
 nav{
     font-weight: bold;
 }
-.container{
+#container{
     font-size: 20px;
 }
-#section{
+section{
     line-height: 1.5;
 }
-#form{
-    border-style: 1px solid grey padding 10px;
+form{
+    border: solid; 
+    border-style: 1px;
+    color: grey;
+    padding: 10px;
 }
 p{
     color: green;
