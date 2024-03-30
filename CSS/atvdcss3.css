@@ -31,3 +31,8 @@ button{
     background-color: blue;
     color:white;
 }
+footer{
+    border-top: solid;
+    border-top-style: 2px;
+    border-top-color: red;
+}
