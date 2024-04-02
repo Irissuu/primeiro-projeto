@@ -1,38 +1,44 @@
 /* modificações atvd */
 
-h1, h2{
-    background-color: blue;
+h1, h2 {
+    color: #318021;
     font-family: serif;
 }
 
-nav{
+#cabecalho {
+    background-color: blue;
+}
+
+nav {
     font-weight: bold;
 }
 
-#container{
+#container {
     font-size: 20px;
 }
 
-section{
+#conteudo {
     line-height: 1.5;
 }
 
-form{
+#contact {
     border: solid 1px grey;
     padding: 10px;
 }
 
-p{
+p {
     color: green;
 }
 
-button{
+button {
     background-color: blue;
     color:white;
 }
 
-.footer{
-    border-top: solid;
-    border-top-style: 2px;
-    border-top-color: red;
+.rodape {
+    border-top: solid 2px red; 
+}
+
+.cabecalho {
+    background-color: blue;
 }

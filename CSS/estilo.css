@@ -15,7 +15,7 @@
 */
 
 /* Tag */
-h1 {
+h1, h2 {
     color: #318021;
 }
 
@@ -31,14 +31,14 @@ ul .link {
     margin: 0 3%;
 
     /* Nesting links */
-    a{
-        text-decoration: none;
-        color: #e8240e;
-    }
+a{
+    text-decoration: none;
+    color: #e8240e;
+} 
 
 }
 
-#menu ul{
+#menu ul { 
     text-align: center;
     letter-spacing: 2px;
 }
