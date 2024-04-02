@@ -1,35 +1,37 @@
 /* modificações atvd */
 
-h1{
+h1, h2{
     background-color: blue;
     font-family: serif;
 }
-h2{
-    font-family: serif;
-}
+
 nav{
     font-weight: bold;
 }
+
 #container{
     font-size: 20px;
 }
+
 section{
     line-height: 1.5;
 }
+
 form{
-    border: solid; 
-    border-style: 1px;
-    color: grey;
+    border: solid 1px grey;
     padding: 10px;
 }
+
 p{
     color: green;
 }
+
 button{
     background-color: blue;
     color:white;
 }
-footer{
+
+.footer{
     border-top: solid;
     border-top-style: 2px;
     border-top-color: red;
